@@ -32,7 +32,7 @@ let package = Package(
         // No external dependencies.  All functionality is self-contained.
     ],
     targets: [
-        .target(
+.executableTarget(
             name: "BetterCMTrace",
             dependencies: [],
             path: "Sources"
